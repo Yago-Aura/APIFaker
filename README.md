@@ -22,6 +22,7 @@ Antes de rodar o projeto, certifique-se de ter instalado:
    ```sh
    npm install
    ```
+   em ambas as pastas
 
 ## Gerando Dados com Faker.js
 
@@ -34,6 +35,7 @@ Antes de rodar o projeto, certifique-se de ter instalado:
    ```sh
    node generateData.js
    ```
+   na pasta backend
    O script utiliza **Faker.js** para criar usuários fictícios com nomes, avatares, endereços e e-mails.
 
 ## Rodando o Servidor JSON
@@ -50,12 +52,12 @@ Se estiver rodando em um dispositivo físico, substitua `localhost` pelo IP da s
 1. Inicie o Expo:
    ```sh
    npx expo start
+   npx expo start --tunnel
    ```
+   o tunnel é acaso se usar redes diferentes
 
-2. Escolha uma das opções:
-   - **Emulador Android**: Pressione `a`
-   - **Emulador iOS** (Mac apenas): Pressione `i`
-   - **Celular físico**: Leia o QR Code no Expo Go
+2. Escolha uma das opção:
+Emular na web aperte a tecla "w"
 
 ## Estrutura do Projeto
 
@@ -82,6 +84,9 @@ Api_Fetch/
 - **Faker.js** para gerar dados aleatórios
 - **Lodash** para manipulação de listas
 
+## Como usar  corretamente
+-Usar as duas pastas simultaneamente em duas paginas do vs code
+
 ## Autor
-Criado por [Yago-Aura](https://github.com/Yago-Aura).
+Criado por [Yago-Aura]
 
